@@ -13,6 +13,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@clerk/express": "^1.7.21",
     "@neondatabase/serverless": "^1.0.1",
     "axios": "^1.11.0",
     "cloudinary": "^2.7.0",
@@ -20,7 +21,8 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "mongoose": "^8.17.1",
-    "multer": "^2.0.2"
+    "multer": "^2.0.2",
+    "openai": "^5.12.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
