@@ -14,10 +14,13 @@ import { useAuth } from "@clerk/clerk-react";
 
 const App = () => {
 
-  const {getToken} = useAuth()
-  useEffect(()=>{
-    getToken().then((token)=>console.log(token));
-  },[])
+  //This token is only used for testing the api
+  // const {getToken} = useAuth()
+  // useEffect(()=>{
+  //   getToken().then((token)=>console.log(token));
+  // },[])
+
+
 
   return (
     <div>
